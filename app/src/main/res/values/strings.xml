@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Congreso</string>
+
+    <string-array name="Conferencias">
+        <item>Seleccionar Conferencia</item>
+        <item>IA Para el Mundo</item>
+        <item>El Futuro del Cambio</item>
+        <item>La Nueva Era: Mundo Virtual</item>
+    </string-array>
+
+    <string name="NombreE">Expositor</string>
+    <string name="NombreA">Asistente</string>
+    <string name="Numero">Numero Telefonico</string>
+    <string name="Correo">Correo Electronico</string>
+
+    <string name="Ingresar">Ingresar</string>
+    <string name="Salir">Salir</string>
+
+
+
+</resources>

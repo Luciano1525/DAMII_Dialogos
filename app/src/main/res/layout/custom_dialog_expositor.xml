@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvNombreE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="Nombre"
+        android:textColor="@color/Amarillo"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/etNombreE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="24sp"
+        android:inputType="text"
+        android:hint="@string/NombreE"
+        android:textColor="@color/Negro"
+        android:textStyle="bold"
+        />
+
+    <View
+        android:id="@+id/separador1"
+        android:layout_width="match_parent"
+        android:layout_height="21dp"
+        android:layout_margin="5sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tvNumeroE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="Telefono"
+        android:textColor="@color/Amarillo"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/etNumeroE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="24sp"
+        android:inputType="text"
+        android:hint="@string/Numero"
+        android:textColor="@color/Negro"
+        android:textStyle="bold"
+        />
+
+    <View
+        android:id="@+id/separador2"
+        android:layout_width="match_parent"
+        android:layout_height="21dp"
+        android:layout_margin="5sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tvCorreoE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="Correo"
+        android:textColor="@color/Amarillo"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/etCorreoE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="24sp"
+        android:inputType="text"
+        android:hint="@string/Correo"
+        android:textColor="@color/Negro"
+        android:textStyle="bold"
+        />
+
+    <View
+        android:id="@+id/separador3"
+        android:layout_width="match_parent"
+        android:layout_height="21dp"
+        android:layout_margin="5sp"
+        android:visibility="invisible" />
+
+    <Spinner
+        android:id="@+id/spnConferencia"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:entries="@array/Conferencias"
+        android:textColor="@color/Rojo1"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/separador4"
+        android:layout_width="match_parent"
+        android:layout_height="21dp"
+        android:layout_margin="5sp"
+        android:visibility="invisible" />
+
+
+</LinearLayout>

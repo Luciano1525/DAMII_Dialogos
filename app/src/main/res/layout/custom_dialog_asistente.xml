@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvSeleccion1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seleccione Conferencia"
+        android:textColor="@color/Amarillo"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/separador6"
+        android:layout_width="match_parent"
+        android:layout_height="21dp"
+        android:layout_margin="5sp"
+        android:visibility="invisible" />
+
+    <Spinner
+        android:id="@+id/spnConferencia1"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:entries="@array/Conferencias"
+        android:textColor="@color/Rojo1"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
