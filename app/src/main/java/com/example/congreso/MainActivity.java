@@ -32,6 +32,23 @@ public class MainActivity extends AppCompatActivity {
         //Activar Toolbar
         setSupportActionBar(findViewById(R.id.toolbar));
 
+        //Dialogo de Bienvenida
+        AlertDialog.Builder Bienvenida = new AlertDialog.Builder(MainActivity.this);
+        Bienvenida.setMessage("Inicio");
+        View selectBienvenida = getLayoutInflater().inflate(R.layout.bienvenida, null);
+        Bienvenida.setView(selectBienvenida);
+        Bienvenida.setCancelable(false);
+
+        Bienvenida.setPositiveButton("Aceptar", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                dialog.dismiss();
+            }
+        });
+
+        AlertDialog dialogo = Bienvenida.create();
+        dialogo.show();
+
         //Boton para llamar al Dialogo personalizado de registro
         btnIngresar = (Button) findViewById(R.id.btnIngresar);
         btnIngresar.setOnClickListener(new View.OnClickListener() {
@@ -41,7 +58,6 @@ public class MainActivity extends AppCompatActivity {
                 res.setMessage("Seleccioone Registro");
                 View select = getLayoutInflater().inflate(R.layout.roless, null);
                 res.setView(select);
-
 
                 //Boton de Dialogo Personalizado para registrar expositor
                 btnExpo = (Button) select.findViewById(R.id.btnExpo);

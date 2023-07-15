@@ -16,7 +16,10 @@
     <string name="Ingresar">Ingresar</string>
     <string name="Conferencia">Conferencia</string>
     <string name="Salir">Salir</string>
-
+    <string name="Bienvenida">Bienvenido al Congreso!!</string>
+    <string name="Descripcion">Congreso con dedicacion de
+    impartir cursos de conferencias relacionado a las nuevas
+    tecnologias. Lic. Informatica y Sistemas de Seguridad</string>
 
 
 </resources>
